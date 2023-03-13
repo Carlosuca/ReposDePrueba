@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageuser"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/user"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/textuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carlos Perez "
+        android:layout_marginTop="8dp"
+        android:textSize="50dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message" />
+
+    <EditText
+        android:id="@+id/name_edit_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write what you need"/>
+
+
+    <Button
+        android:id="@+id/action_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/display_greeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/greeting_text" />
+
+
+
+</LinearLayout>
